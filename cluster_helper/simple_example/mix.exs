@@ -25,8 +25,8 @@ defmodule SimpleExample.MixProject do
   defp deps do
     [
       {:libcluster, "~> 3.5"},
-      {:cluster_helper, "0.0.4"},
-      {:easy_rpc, "~> 0.2.1"}
+      {:cluster_helper, "~> 0.1"},
+      {:easy_rpc, "~> 0.5"}
     ]
   end
 end

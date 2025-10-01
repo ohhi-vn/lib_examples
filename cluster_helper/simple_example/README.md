@@ -21,6 +21,9 @@ iex --name example@127.0.0.1 --cookie need_to_change_this -S mix
 Node.list()
 # return [:"remote@127.0.0.1"]
 
-SimpleExample.Local.hello_with_name_age("Man", 40)
-# return from remote: "Hello, manh! Your age is 40."
+ClusterHelper.get_nodes(:api)
+# return [:"remote@127.0.0.1"]
+
+ClusterHelper.all_nodes()
+# return [:"example@127.0.0.1", :"remote@127.0.0.1"]
 ```

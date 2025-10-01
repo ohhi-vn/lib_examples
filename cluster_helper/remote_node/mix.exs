@@ -25,7 +25,7 @@ defmodule RemoteNode.MixProject do
   defp deps do
     [
       {:libcluster, "~> 3.5"},
-      {:cluster_helper, "0.0.4"}
+      {:cluster_helper, "0.1.0"}
     ]
   end
 end
