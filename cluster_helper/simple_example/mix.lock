@@ -1,8 +1,8 @@
 %{
-  "cluster_helper": {:hex, :cluster_helper, "0.1.0", "b9973bec642af7c283fd5c3fd1273fbf1a7f7322f63d654493d820cb524bd41c", [:mix], [{:syn, "~> 3.3", [hex: :syn, repo: "hexpm", optional: false]}], "hexpm", "9b910014aadd012054848f9c8eb4890768d1f3570cd2d29d51c14745d115e281"},
-  "easy_rpc": {:hex, :easy_rpc, "0.5.0", "36db8116ee4f35ab4dd493dc1207e83970f8cf9851b44863c6600a2c0754937d", [:mix], [], "hexpm", "07e27817c5bab39dfb07a68b11ad184d31c61e4857136b9dbe2fb7d24e3ff979"},
+  "cluster_helper": {:hex, :cluster_helper, "0.2.1", "2a20586185db969d35b24fff936049d33116d89666d318312387e0e05188e482", [:mix], [{:syn, "~> 3.4", [hex: :syn, repo: "hexpm", optional: false]}], "hexpm", "a1a701e01a8b831493926517df0c377ecb0155e636f3cdd95eb4c51a114ee31c"},
+  "easy_rpc": {:hex, :easy_rpc, "0.7.0", "c207993aac0c2590875bfc564f2f37a7ee083ada1a56b54471e132161fc8f696", [:mix], [], "hexpm", "028f6738ce85d47940dd441905717c4f4830c3ae27cceccae35ed18830550a14"},
   "jason": {:hex, :jason, "1.4.4", "b9226785a9aa77b6857ca22832cffa5d5011a667207eb2a0ad56adb5db443b8a", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "c5eb0cab91f094599f94d55bc63409236a8ec69a21a67814529e8d5f6cc90b3b"},
   "libcluster": {:hex, :libcluster, "3.5.0", "5ee4cfde4bdf32b2fef271e33ce3241e89509f4344f6c6a8d4069937484866ba", [:mix], [{:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}, {:telemetry, "~> 1.3", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm", "ebf6561fcedd765a4cd43b4b8c04b1c87f4177b5fb3cbdfe40a780499d72f743"},
-  "syn": {:hex, :syn, "3.3.0", "4684a909efdfea35ce75a9662fc523e4a8a4e8169a3df275e4de4fa63f99c486", [:rebar3], [], "hexpm", "e58ee447bc1094bdd21bf0acc102b1fbf99541a508cd48060bf783c245eaf7d6"},
+  "syn": {:hex, :syn, "3.4.0", "cc16c2107bef0a729f96e95827def83e6a8d078d643f822e49419b153d475112", [:rebar3], [], "hexpm", "69e30a2181c11211791183aad148975adc6e4b3ec9718510e5ea42cf5d73de9d"},
   "telemetry": {:hex, :telemetry, "1.3.0", "fedebbae410d715cf8e7062c96a1ef32ec22e764197f70cda73d82778d61e7a2", [:rebar3], [], "hexpm", "7015fc8919dbe63764f4b4b87a95b7c0996bd539e0d499be6ec9d7f3875b79e6"},
 }
